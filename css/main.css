@@ -25,6 +25,7 @@ p {
 
 .intro {
   animation: intro 1s linear;
+  text-shadow: 1px 1px 1px;
 }
 
 .btn-ghost {
@@ -89,6 +90,7 @@ img {
   100% {
     transform: translateY(0);
   }
+
 }
 
 @keyframes mint {
@@ -101,6 +103,7 @@ img {
   100% {
     transform: translateY(0);
   }
+
 }
 
 @keyframes choco {
@@ -113,6 +116,7 @@ img {
   100% {
     transform: translateY(0);
   }
+
 }
 
 @keyframes vanilla {
@@ -125,6 +129,7 @@ img {
   100% {
     transform: translateY(0);
   }
+
 }
 
 @keyframes cherry {
@@ -137,6 +142,7 @@ img {
   100% {
     transform: translateY(0);
   }
+
 }
 
 @keyframes intro {
@@ -154,8 +160,8 @@ img {
     filter: blur(.5px);
   }
 
-
   100% {
     filter: opacity(1);
   }
+
 }
